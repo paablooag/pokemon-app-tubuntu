@@ -46,7 +46,7 @@ export class PokemonService {
         }),
       );
 
-      // Ordenar por base_experience
+      // Order by base_experience
       pokemonDetails.sort((a, b) => a.base_experience - b.base_experience);
 
       return pokemonDetails;
